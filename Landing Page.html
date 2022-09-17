@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = 'stylesheet' href="landingdesign.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.js">
+           alert('hello');
+        </script> -->
+        <script type="text/javascript">
+            
+            function show(){
+               var x = document.getElementById("submenu");
+               if(x.style.display === 'none'){
+                   x.style.display = 'block';
+               }
+               else {
+                x.style.display = "none";
+               }
+            //    alert('s');
+
+            }
+        </script>
+        <title>
+        My Landing Page
+    </title></head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Awesome App</h1>
+                <h2>This app will change your life</h2>
+                <a class="btn" onclick="show()">Download Now</a>
+                <div id="submenu">
+                    <a href="#"> Link 1</a>
+                    <a href="#">Link 2</a>
+                </div>
+            </div>
+        </header>
+        <section class="features">
+            <div class="container">
+                <div class="feature">
+                    <img src="location.png" alt=""/>
+                    <p>Location feature</p>
+                </div>
+                <div class="feature">
+                    <img src="time.png" alt=""/>
+                    <p>Traveling feature</p>
+                    
+                </div>
+                <div class="feature">
+                    <img src="message.png" alt="" />
+                    <p>Messaging feature</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="quote">
+            <blockquote class="container">
+                <p>"Nice and valuable quotes there!"</p>
+                <cite>Beeb Code</cite>
+            </blockquote>
+        </section>
+        <footer>
+            <div class="container">
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About</a></li>
+                    <li><a href='#'>Contacts</a></li>
+                </ul>
+                <p>All rights reserved</p>
+            </div>
+
+        </footer>
+    </body>
+</html>
